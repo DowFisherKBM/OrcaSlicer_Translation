@@ -2927,21 +2927,21 @@ msgid "Print task sending times out."
 msgstr "发送打印任务超时。"
 
 msgid "Service Unavailable"
-msgstr "服务不可用。"
+msgstr "服务不可用"
 
 msgid "Unknown Error."
 msgstr "未知错误。"
 
 msgid "Sending print configuration"
-msgstr "正在发送打印配置。"
+msgstr "正在发送打印配置"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the device page in %ss"
-msgstr "已发送完成，即将自动跳转到设备页面（%s秒）"
+msgstr "已发送完成，将在 %s 秒后自动跳转到设备页面。"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the next page in %ss"
-msgstr "已成功发送。将自动跳转到%ss中的下一页。"
+msgstr "已成功发送，将在 %s 秒后自动跳转到下一页。"
 
 #, c-format, boost-format
 msgid "Access code:%s IP address:%s"
