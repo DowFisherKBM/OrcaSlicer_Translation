@@ -38,10 +38,10 @@ msgid "The filament model is unknown. A random filament preset will be used."
 msgstr ""
 
 msgid "right"
-msgstr ""
+msgstr "右"
 
 msgid "left"
-msgstr ""
+msgstr "左"
 
 msgid "right extruder"
 msgstr ""
@@ -53,20 +53,20 @@ msgid "extruder"
 msgstr ""
 
 msgid "TPU is not supported by AMS."
-msgstr "AMS不支持TPU。"
+msgstr "AMS不支持TPU耗材。"
 
 msgid ""
 "Damp PVA will become flexible and get stuck inside AMS, please take care to "
 "dry it before use."
-msgstr "潮湿的PVA会变得柔软并粘在AMS内，请在使用前注意干燥。"
+msgstr "受潮的PVA会软化，并且可能粘在AMS内，请在使用前注意烘干。"
 
 msgid "Damp PVA is flexible and may get stuck in extruder. Dry it before use."
-msgstr ""
+msgstr "受潮的PVA会软化，并且可能粘在挤出机内，请在使用前注意烘干"
 
 msgid ""
 "The rough surface of PLA Glow can accelerate wear on the AMS system, "
 "particularly on the internal components of the AMS Lite."
-msgstr ""
+msgstr "发光PLA的粗糙表面可能会加速AMS的磨损，尤其是AMS Lite的内部组件。"
 
 msgid ""
 "CF/GF filaments are hard and brittle, it's easy to break or get stuck in "
@@ -74,14 +74,14 @@ msgid ""
 msgstr "CF/GF耗材丝丝又硬又脆，在AMS中很容易断裂或卡住，请谨慎使用。"
 
 msgid "PPS-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "PPS-CF材质较脆，用在工具头上方的弯曲PTFE管中可能会断裂。"
 
 msgid "PPA-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "PPA-CF材质较脆，用在工具头上方的弯曲PTFE管中可能会断裂。"
 
 #, c-format, boost-format
 msgid "%s is not supported by %s extruder."
-msgstr ""
+msgstr "%s 不被 %s 挤出机支持。"
 
 msgid "Current AMS humidity"
 msgstr "当前AMS湿度"
@@ -304,13 +304,13 @@ msgid "Brush shape"
 msgstr "画刷形状"
 
 msgid "Add fuzzy skin"
-msgstr ""
+msgstr "添加绒毛表面"
 
 msgid "Remove fuzzy skin"
-msgstr ""
+msgstr "移除绒毛表面"
 
 msgid "Reset selection"
-msgstr ""
+msgstr "重置选择"
 
 msgid "Move"
 msgstr "移动"
@@ -397,7 +397,7 @@ msgid "World coordinates"
 msgstr "世界坐标"
 
 msgid "Translate(Relative)"
-msgstr ""
+msgstr "转换（相对）"
 
 msgid "Reset current rotation to the value when open the rotation tool."
 msgstr "重置当前旋转为打开旋转工具时的值"
@@ -1708,7 +1708,7 @@ msgstr "打开项目"
 msgid ""
 "The version of Orca Slicer is too low and needs to be updated to the latest "
 "version before it can be used normally."
-msgstr "逆戟鲸版本过低，需要更新到最新版本方可正常使用"
+msgstr "此逆戟鲸切片器的版本过低，需更新至最新版本方可正常使用"
 
 msgid "Privacy Policy Update"
 msgstr "隐私协议更新"
@@ -1769,7 +1769,7 @@ msgid "Rename"
 msgstr "重命名"
 
 msgid "Orca Slicer GUI initialization failed"
-msgstr "逆戟鲸图形界面初始化失败"
+msgstr "逆戟鲸切片器图形界面初始化失败"
 
 #, boost-format
 msgid "Fatal error, exception caught: %1%"
@@ -1902,7 +1902,7 @@ msgid "Torus"
 msgstr "环面"
 
 msgid "Orca Cube"
-msgstr "Orca逆方块"
+msgstr "Orca方块"
 
 msgid "Orca Tolerance Test"
 msgstr "Orca误差测试"
@@ -1986,10 +1986,10 @@ msgid "Replace the selected part with new STL"
 msgstr "用新的STL替换选中的零件"
 
 msgid "Replace all with STL"
-msgstr ""
+msgstr "用STL替换全部"
 
 msgid "Replace all selected parts with STL from folder"
-msgstr ""
+msgstr "用文件夹内的STL替换全部选中零件"
 
 msgid "Change filament"
 msgstr "更换耗材丝"
@@ -1998,11 +1998,11 @@ msgid "Set filament for selected items"
 msgstr "设置所选项的耗材丝"
 
 msgid "Default"
-msgstr "缺省"
+msgstr "默认"
 
 #, c-format, boost-format
 msgid "Filament %d"
-msgstr "耗材丝%d"
+msgstr "耗材 %d"
 
 msgid "current"
 msgstr "当前"
@@ -2050,7 +2050,7 @@ msgid "Assemble the selected objects to an object with single part"
 msgstr "组合所选对象为一个单零件对象"
 
 msgid "Mesh boolean"
-msgstr "网格布尔操作"
+msgstr "网格布尔运算"
 
 msgid "Mesh boolean operations including union and subtraction"
 msgstr "包括并集和差集的网格布尔运算"
@@ -2131,10 +2131,10 @@ msgid "Edit"
 msgstr "编辑"
 
 msgid "Delete this filament"
-msgstr ""
+msgstr "移除此耗材"
 
 msgid "Merge with"
-msgstr ""
+msgstr "与其合并"
 
 msgid "Select All"
 msgstr "全选"
@@ -2152,7 +2152,7 @@ msgid "Arrange"
 msgstr "自动摆放"
 
 msgid "arrange current plate"
-msgstr "在当前盘执行自动摆放"
+msgstr "自动摆放当前盘"
 
 msgid "Reload All"
 msgstr "重新加载全部"
@@ -2173,28 +2173,28 @@ msgid "Remove the selected plate"
 msgstr "删除所选盘"
 
 msgid "Add instance"
-msgstr ""
+msgstr "增加实例"
 
 msgid "Add one more instance of the selected object"
-msgstr ""
+msgstr "为选中物体增加一个实例"
 
 msgid "Remove instance"
-msgstr ""
+msgstr "移除实例"
 
 msgid "Remove one instance of the selected object"
-msgstr ""
+msgstr "为选中物体移除一个实例"
 
 msgid "Set number of instances"
-msgstr ""
+msgstr "设置实例数量"
 
 msgid "Change the number of instances of the selected object"
-msgstr ""
+msgstr "更改选中物体的实例数量"
 
 msgid "Fill bed with instances"
-msgstr ""
+msgstr "用实例铺满打印板"
 
 msgid "Fill the remaining area of bed with instances of the selected object"
-msgstr ""
+msgstr "用选中物体的实例填充打印板"
 
 msgid "Clone"
 msgstr "克隆"
@@ -2212,10 +2212,10 @@ msgid "Edit Process Settings"
 msgstr "编辑工艺参数"
 
 msgid "Copy Process Settings"
-msgstr ""
+msgstr "复制工艺参数"
 
 msgid "Paste Process Settings"
-msgstr ""
+msgstr "粘贴工艺参数"
 
 msgid "Edit print parameters for a single object"
 msgstr "编辑单个对象的打印参数"
@@ -2244,12 +2244,12 @@ msgstr "耗材丝"
 #, c-format, boost-format
 msgid "%1$d error repaired"
 msgid_plural "%1$d errors repaired"
-msgstr[0] "%1$d个错误被修复"
+msgstr[0] "%1$d个错误已修复"
 
 #, c-format, boost-format
 msgid "Error: %1$d non-manifold edge."
 msgid_plural "Error: %1$d non-manifold edges."
-msgstr[0] "错误: %1$d 非流形边."
+msgstr[0] "错误: %1$d 存在非流形边."
 
 msgid "Remaining errors"
 msgstr "剩余错误"
@@ -2257,7 +2257,7 @@ msgstr "剩余错误"
 #, c-format, boost-format
 msgid "%1$d non-manifold edge"
 msgid_plural "%1$d non-manifold edges"
-msgstr[0] "%1$d 非流形边"
+msgstr[0] "%1$d 存在非流形边"
 
 msgid "Click the icon to repair model object"
 msgstr "点击图标修复模型对象"
@@ -2514,7 +2514,7 @@ msgid "Open next tip."
 msgstr "打开下一条提示"
 
 msgid "Open Documentation in web browser."
-msgstr "在web浏览器中打开文档。"
+msgstr "在网页浏览器中打开文档。"
 
 msgid "Color"
 msgstr "颜色"
@@ -2538,7 +2538,7 @@ msgid "Custom G-code:"
 msgstr "自定义G-code："
 
 msgid "Custom G-code"
-msgstr "自定义 G-code"
+msgstr "自定义G-code"
 
 msgid "Enter Custom G-code used on current layer:"
 msgstr "输入当前层上使用的自定义G-code："
@@ -2622,7 +2622,7 @@ msgid "Connecting..."
 msgstr "连接中..."
 
 msgid "Auto-refill"
-msgstr ""
+msgstr "自动补充"
 
 msgid "Load"
 msgstr "进料"
@@ -2633,23 +2633,23 @@ msgstr "退料"
 msgid ""
 "Choose an AMS slot then press \"Load\" or \"Unload\" button to automatically "
 "load or unload filaments."
-msgstr "选择1个AMS槽位，然后点击进料/退料按钮以自动进料/退料。"
+msgstr "选择一个AMS槽位，然后点击“进料”或“退料”按钮以自动进退料。"
 
 msgid ""
 "Filament type is unknown which is required to perform this action. Please "
 "set target filament's informations."
-msgstr ""
+msgstr "因耗材类型未知，所以需要执行此操作。请指定目标耗材的信息。"
 
 msgid ""
 "Changing fan speed during printing may affect print quality, please choose "
 "carefully."
-msgstr ""
+msgstr "在打印过程中更改风扇速度可能影响打印质量，请谨慎选择。"
 
 msgid "Change Anyway"
-msgstr ""
+msgstr "继续更改"
 
 msgid "Off"
-msgstr ""
+msgstr "关"
 
 msgid "Filter"
 msgstr "过滤"
@@ -2657,38 +2657,38 @@ msgstr "过滤"
 msgid ""
 "Enabling filtration redirects the right fan to filter gas, which may reduce "
 "cooling performance."
-msgstr ""
+msgstr "启用过滤功能将使右侧风扇改为气体过滤模式，可能降低冷却性能。"
 
 msgid ""
 "Enabling filtration during printing may reduce cooling and affect print "
 "quality. Please choose carefully."
-msgstr ""
+msgstr "在打印过程中启用过滤功能可能影响打印质量并降低冷却性能，请谨慎选择。"
 
 msgid ""
 "The selected material only supports the current fan mode, and it can't be "
 "changed during printing."
-msgstr ""
+msgstr "所选材料仅支持当前的风扇模式，且无法在打印过程中更改。"
 
 msgid "Cooling"
 msgstr "冷却"
 
 msgid "Heating"
-msgstr ""
+msgstr "加热"
 
 msgid "Exhaust"
-msgstr ""
+msgstr "排气"
 
 msgid "Full Cooling"
-msgstr ""
+msgstr "全速冷却"
 
 msgid "Init"
 msgstr ""
 
 msgid "Chamber"
-msgstr ""
+msgstr "打印舱"
 
 msgid "Innerloop"
-msgstr ""
+msgstr "内环"
 
 #. TRN To be shown in the main menu View->Top
 msgid "Top"
@@ -2698,54 +2698,54 @@ msgid ""
 "The fan controls the temperature during printing to improve print quality."
 "The system automatically adjusts the fan's switch and speed according to "
 "different printing materials."
-msgstr ""
+msgstr "风扇会在打印过程中控制温度以提升质量。此系统会根据各类耗材自动调整风扇开关和速度。"
 
 msgid ""
 "Cooling mode is suitable for printing PLA/PETG/TPU materials and filters the "
 "chamber air."
-msgstr ""
+msgstr "冷却模式适合打印PLA、PETG、TPU等材料，同时过滤舱内空气。"
 
 msgid ""
 "Heating mode is suitable for printing ABS/ASA/PC/PA materials and circulates "
 "filters the chamber air."
-msgstr ""
+msgstr "加热模式适合打印ABS、ASA、PC、PA等材料，同时循环和过滤舱内空气。"
 
 msgid ""
 "Strong cooling mode is suitable for printing PLA/TPU materials. In this "
 "mode, the printouts will be fully cooled."
-msgstr ""
+msgstr "强冷模式适合打印PLA、TPU等材料，此模式会尽可能完全冷却打印件。"
 
 msgid "Cooling mode is suitable for printing PLA/PETG/TPU materials."
-msgstr ""
+msgstr "冷却模式适合打印PLA、PETG、TPU等材料。"
 
 msgctxt "air_duct"
 msgid "Right(Aux)"
-msgstr ""
+msgstr "右侧（辅助）"
 
 msgctxt "air_duct"
 msgid "Right(Filter)"
-msgstr ""
+msgstr "右侧（过滤器）"
 
 msgid "Hotend"
-msgstr ""
+msgstr "热端"
 
 msgid "Parts"
-msgstr ""
+msgstr "打印件"
 
 msgid "Aux"
 msgstr "辅助"
 
 msgid "Nozzle1"
-msgstr ""
+msgstr "喷嘴 1"
 
 msgid "MC Board"
-msgstr ""
+msgstr "驱动板"
 
 msgid "Heat"
-msgstr ""
+msgstr "加热"
 
 msgid "Fan"
-msgstr ""
+msgstr "风扇"
 
 msgid "Idling..."
 msgstr "空闲..."
@@ -2775,10 +2775,10 @@ msgid "Check filament location"
 msgstr "检查耗材丝位置"
 
 msgid "The maximum temperature cannot exceed "
-msgstr ""
+msgstr "最高温度不可超过 "
 
 msgid "The minmum temperature should not be less than "
-msgstr ""
+msgstr "最低温度不可低于 "
 
 msgid ""
 "All the selected objects are on a locked plate.\n"
@@ -2918,22 +2918,22 @@ msgid ""
 msgstr "无法将打印文件上传至FTP。请检查网络状态并重试。"
 
 msgid "Sending print job over LAN"
-msgstr "正在通过局域网发送打印任务"
+msgstr "正在通过局域网发送打印任务。"
 
 msgid "Sending print job through cloud service"
-msgstr "正在通过云端服务发送打印任务"
+msgstr "正在通过云端服务发送打印任务。"
 
 msgid "Print task sending times out."
 msgstr "发送打印任务超时。"
 
 msgid "Service Unavailable"
-msgstr "服务不可用"
+msgstr "服务不可用。"
 
 msgid "Unknown Error."
-msgstr "未知错误"
+msgstr "未知错误。"
 
 msgid "Sending print configuration"
-msgstr "正在发送打印配置"
+msgstr "正在发送打印配置。"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the device page in %ss"
@@ -2948,7 +2948,7 @@ msgid "Access code:%s IP address:%s"
 msgstr "访问码：%s IP地址：%s"
 
 msgid "A Storage needs to be inserted before printing via LAN."
-msgstr ""
+msgstr "进行局域网打印前需要插入存储器。"
 
 msgid ""
 "Sending print job over LAN, but the Storage in the printer is abnormal and "
