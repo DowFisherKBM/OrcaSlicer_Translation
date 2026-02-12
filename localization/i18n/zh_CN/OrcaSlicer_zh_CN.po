@@ -13635,8 +13635,7 @@ msgid ""
 "layers. Note that this is an experimental parameter."
 msgstr ""
 "开启这个设置，对象在切片后将得到精准的 Z 高度。"
-"此命令将微调对象最终数层的层高，以确保对象 Z 高度精准。
-"\n"
+"此命令将微调对象最终数层的层高，以确保对象 Z 高度精准。"
 "请注意：此选项尚为实验性参数。"
 
 msgid "Arc fitting"
