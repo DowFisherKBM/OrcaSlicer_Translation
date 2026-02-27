@@ -438,7 +438,7 @@ msgstr ""
 msgid "Size"
 msgstr "Розмір"
 
-msgid "uniform scale"
+msgid "Uniform scale"
 msgstr "рівномірне масштабування"
 
 msgid "Planar"
@@ -702,7 +702,7 @@ msgstr "З'єднувач"
 msgid "Cut by Plane"
 msgstr "Вирізати площиною"
 
-msgid "non-manifold edges be caused by cut tool, do you want to fix it now?"
+msgid "Non-manifold edges be caused by cut tool, do you want to fix it now?"
 msgstr ""
 "неманіфольдні ребра можуть бути викликані інструментом різання, ви хочете "
 "виправити це зараз?"
@@ -2255,31 +2255,31 @@ msgstr ""
 msgid "Select All"
 msgstr "Вибрати все"
 
-msgid "select all objects on current plate"
+msgid "Select all objects on the current plate"
 msgstr "вибрати всі об'єкти на поточній пластині"
 
 msgid "Delete All"
 msgstr "Видалити все"
 
-msgid "delete all objects on current plate"
+msgid "Delete all objects on the current plate"
 msgstr "видалити всі об'єкти на поточній пластині"
 
 msgid "Arrange"
 msgstr "Впорядкувати"
 
-msgid "arrange current plate"
+msgid "Arrange current plate"
 msgstr "впорядкувати поточну пластину"
 
 msgid "Reload All"
 msgstr "Перезавантажити все"
 
-msgid "reload all from disk"
+msgid "Reload all from disk"
 msgstr "перезавантажити все з диска"
 
 msgid "Auto Rotate"
 msgstr "Авто-поворот"
 
-msgid "auto rotate current plate"
+msgid "Auto rotate current plate"
 msgstr "автоповорот поточної пластини"
 
 msgid "Delete Plate"
@@ -2607,7 +2607,8 @@ msgstr "Додавання діапазон висот шарів"
 msgid "Invalid numeric."
 msgstr "Неприпустиме числове значення."
 
-msgid "one cell can only be copied to one or multiple cells in the same column"
+#, fuzzy
+msgid "One cell can only be copied to one or more cells in the same column."
 msgstr ""
 "одну клітинку можна скопіювати лише в одну або декілька клітинок у тому "
 "самому стовпці"
@@ -3754,7 +3755,7 @@ msgstr ""
 "або видалений\n"
 "за допомогою антивірусного програмного забезпечення."
 
-msgid "click here to see more info"
+msgid "Click here to see more info"
 msgstr "натисніть тут, щоб побачити більше інформації"
 
 msgid ""
@@ -4288,7 +4289,7 @@ msgstr ""
 msgid "Nozzle offset calibration"
 msgstr ""
 
-msgid "high temperature auto bed leveling"
+msgid "High temperature auto bed leveling"
 msgstr ""
 
 msgid "Auto Check: Quick Release Lever"
@@ -5015,7 +5016,7 @@ msgstr "Збільшення/зменшення області редагува�
 msgid "Sequence"
 msgstr "Послідовність"
 
-msgid "object selection"
+msgid "Object selection"
 msgstr ""
 
 msgid "part selection"
@@ -5024,7 +5025,7 @@ msgstr ""
 msgid "number keys"
 msgstr ""
 
-msgid "number keys can quickly change the color of objects"
+msgid "Number keys can quickly change the color of objects"
 msgstr ""
 
 msgid ""
@@ -5256,7 +5257,7 @@ msgid "Only the object being edited is visible."
 msgstr "Відображається лише редагований об'єкт."
 
 #, c-format, boost-format
-msgid "filaments %s cannot be printed directly on the surface of this plate."
+msgid "Filaments %s cannot be printed directly on the surface of this plate."
 msgstr ""
 
 msgid ""
@@ -6556,7 +6557,7 @@ msgstr ""
 msgid "Upload failed\n"
 msgstr "Помилка завантаження\n"
 
-msgid "obtaining instance_id failed\n"
+msgid "Obtaining instance_id failed\n"
 msgstr "помилка отримання instance_id\n"
 
 msgid ""
@@ -7609,13 +7610,14 @@ msgstr "Зберегти проект"
 msgid "Importing Model"
 msgstr "Імпорт моделі"
 
-msgid "prepare 3MF file..."
+#, fuzzy
+msgid "Preparing 3MF file..."
 msgstr "підготувати файл 3MF..."
 
 msgid "Download failed, unknown file format."
 msgstr "Не вдалося завантажити, невідомий формат файлу."
 
-msgid "downloading project..."
+msgid "Downloading project..."
 msgstr "завантажую проект..."
 
 msgid "Download failed, File size exception."
@@ -8515,10 +8517,10 @@ msgstr "Хост PRE: api-pre.bambu-lab.com/v1"
 msgid "Product host"
 msgstr "Хост продукту"
 
-msgid "debug save button"
+msgid "Debug save button"
 msgstr "кнопка збереження налагодження"
 
-msgid "save debug settings"
+msgid "Save debug settings"
 msgstr "зберегти налаштування налагодження"
 
 msgid "DEBUG settings have been saved successfully!"
@@ -8809,7 +8811,7 @@ msgid ""
 "*Automatic mode: Check for calibration before printing. Skip if unnecessary."
 msgstr ""
 
-msgid "send completed"
+msgid "Send complete"
 msgstr "відправлення завершено"
 
 msgid "Error code"
@@ -10653,7 +10655,7 @@ msgstr "Перемістити виділення на 10 мм у позитив
 msgid "Movement step set to 1 mm"
 msgstr "Крок переміщення встановлено на 1 мм"
 
-msgid "keyboard 1-9: set filament for object/part"
+msgid "Keyboard 1-9: set filament for object/part"
 msgstr "клавіатура 1-9: встановити філамент для об'єкта/деталі"
 
 msgid "Camera view - Default"
@@ -14330,8 +14332,8 @@ msgstr ""
 "Випадкове тремтіння під час друку зовнішнього периметра, так що поверхня "
 "була шорсткої. Цей параметр керує нечіткою оболонкою"
 
-msgid "None (allow paint)"
-msgstr ""
+msgid "Painted only"
+msgstr "Тільки пофарбовані"
 
 msgid "Contour"
 msgstr "Контур"
@@ -18885,7 +18887,7 @@ msgstr ""
 msgid "Plate Type"
 msgstr "Тип Пластини"
 
-msgid "filament position"
+msgid "Filament position"
 msgstr "позиція філаменту"
 
 msgid "Filament For Calibration"
@@ -19841,7 +19843,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Printer and all the filament&&process presets that belongs to the printer.\n"
+"Printer and all the filament and process presets that belongs to the printer.\n"
 "Can be shared with others."
 msgstr ""
 "Принтер і всі нитки та налаштування процесу, які належать принтеру.\n"
@@ -20730,7 +20732,7 @@ msgstr "Історії завдань немає!"
 msgid "Upgrading"
 msgstr "Оновлення"
 
-msgid "syncing"
+msgid "Syncing"
 msgstr "синхронізація"
 
 msgid "Printing Finish"
